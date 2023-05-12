@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="bank2">
+<test name="BankingApp test">
+<parameter name ="Browser" value="firefox"/>
+<classes>
+<class name ="com.bank.testcases.tc_login_oo1"/>
+</classes>
+</test>
+
+
+
+
+
+</suite>
